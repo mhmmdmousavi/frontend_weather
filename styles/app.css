@@ -58,7 +58,16 @@
     font-size: 12px;
 }
 
-/* .text2{
+.texts{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
-} */
+.text2{
+    font-size: 12px;
+}
 
+.logo{
+    
+}

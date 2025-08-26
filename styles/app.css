@@ -69,12 +69,31 @@
     font-size: 12px;
 }
 
-/* .right{
+.right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px 5%;
+    background-color: #d7d8f0;
+}
 
-} */
+.search-box{
+    width: 100%;
+    background-color: white;
+    border-radius: 100px;
+    display: flex;
+    overflow: hidden;
+}
+#search{
+    width: 100%;
+    border: none;
+}
 
-/* .search-box{} */
-/* .search */
+#search:focus{
+    outline: none;
+    border: none;
+}
 /* .search-icon */
 /* .search-input */
 /* .search-place{} */

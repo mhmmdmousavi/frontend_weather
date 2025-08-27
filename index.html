@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles/app.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="main">
@@ -63,32 +67,30 @@
       </div>
 
       <div class="right">
-        <div class="search">
-          <div class="search-box">
-            <span>
-              <svg
-                width="41"
-                height="36"
-                viewBox="0 0 41 36"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M35.9268 31.875L29.8768 26.043C32.2832 23.7717 33.6948 20.7768 33.8455 17.6227C33.9963 14.4686 32.8758 11.3732 30.6952 8.91988C28.5147 6.46656 25.4247 4.82481 22.0076 4.30407C18.5906 3.78333 15.0825 4.41956 12.1447 6.09285C9.20679 7.76614 7.04205 10.3609 6.05844 13.3881C5.07482 16.4153 5.34029 19.6658 6.80479 22.5269C8.26929 25.3881 10.8317 27.6623 14.009 28.9208C17.1863 30.1794 20.759 30.3354 24.0539 29.3595"
-                  stroke="#2D2A54"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </span>
-            <input 
-              id="search"
-              type="text"
-              placeholder="Search location here..."
-            />
-          </div>
+        <div class="search-box">
           <span>
-            <button>
+            <svg
+              width="41"
+              height="36"
+              viewBox="0 0 41 36"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M35.9268 31.875L29.8768 26.043C32.2832 23.7717 33.6948 20.7768 33.8455 17.6227C33.9963 14.4686 32.8758 11.3732 30.6952 8.91988C28.5147 6.46656 25.4247 4.82481 22.0076 4.30407C18.5906 3.78333 15.0825 4.41956 12.1447 6.09285C9.20679 7.76614 7.04205 10.3609 6.05844 13.3881C5.07482 16.4153 5.34029 19.6658 6.80479 22.5269C8.26929 25.3881 10.8317 27.6623 14.009 28.9208C17.1863 30.1794 20.759 30.3354 24.0539 29.3595"
+                stroke="#2D2A54"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+          <input
+            class="search"
+            id="search"
+            type="text"
+            placeholder="Search location here..."
+          />
+          <button class="search-btn">
             <svg
               width="45"
               height="43"
@@ -109,89 +111,98 @@
                 fill="#D7D8F0"
               />
             </svg>
-            </button>
-          </span>
-          <div class="info-weather">
-            <h2 class="info-today">Today</h2>
-            <div>
-              <img src="images/image 2.png" alt="">
-              <p class="info-city">Pazartesi</p>
-              <p class="info-temp">22°</p>
-            </div>
-            <div>
-              <img src="images/image 2.png" alt="">
-              <p class="info-city">Pazartesi</p>
-              <p class="info-temp">22°</p>
-            </div>
-            <div>
-              <img src="images/image 2.png" alt="">
-              <p class="info-city">Pazartesi</p>
-              <p class="info-temp">22°</p>
-            </div>
-            <div>
-              <img src="images/image 2.png" alt="">
-              <p class="info-city">Pazartesi</p>
-              <p class="info-temp">22°</p>
-            </div>
-            <div>
-              <img src="images/image 2.png" alt="">
-              <p class="info-city">Pazartesi</p>
-              <p class="info-temp">22°</p>
-            </div>
-            <div class="Status-to">
-              <h2 class="highlights">
-                Today’s Highlights
-              </h2>
-              <div>
-                <img src="images/image20.png" alt="">
-                <p class="rain">Wind Status</p>
-                <p class="wind-weather">Today wind speed</p>
-                <p class="kilometr">12 km/h</p>
-              </div>
+          </button>
+        </div>
 
-
-              <div>
-                <img src="/images/image21.png" alt="">
-                <p class="rain">Nem</p>
-                <p class="wind-weather">Today wind speed</p>
-                <p class="kilometr">12 km/h</p>
-              </div>
-
-
-              <div>
-                <img src="images/image22.png" alt="">
-                <p class="rain">12 km/h</p>
-                <p class="wind-weather">Today wind speed</p>
-                <p class="kilometr">12 km/h</p>
-              </div>
+        <div class="info-weather">
+          <h2 class="info-today">Today</h2>
+          <div class="items">
+            <div class="day selected">
+              <img src="images/image 2.png" alt="" class="day-img" />
+              <p class="day-info">Pazartesi</p>
+              <p class="day-info">22°</p>
             </div>
-            <div class="state">
-              <h2 class="title-other-city">
-                Other Cities
-              </h2>
-              <div>
-                <img src="images/Rectangle 27.png" alt="">
-                <p class="other-states">İstanbul</p>
-                <p class="city-temp">25° Güneşli</p>
-              </div>
-              <div>
-
-              <div>
-                <img src="images/Rectangle 28.png" alt="">
-                <p class="other-states">Ankara</p>
-                <p class="city-temp">25° Güneşli</p>
-              </div>
-              <div>
-
-              <div>
-                <img src="images/Rectangle 29.png" alt="">
-                <p class="other-states">İzmir</p>
-                <p class="city-temp">25° Güneşli</p>
-              </div>
+            <div class="day">
+              <img src="images/image 2.png" alt="" class="day-img" />
+              <p class="day-info">Pazartesi</p>
+              <p class="day-info">22°</p>
             </div>
-          </div>
+            <div class="day">
+              <img src="images/image 2.png" alt="" class="day-img" />
+              <p class="day-info">Pazartesi</p>
+              <p class="day-info">22°</p>
+            </div>
+            <div class="day">
+              <img src="images/image 2.png" alt="" class="day-img" />
+              <p class="day-info">Pazartesi</p>
+              <p class="day-info">22°</p>
+            </div>
+            <div class="day">
+              <img src="images/image 2.png" alt="" class="day-img" />
+              <p class="day-info">Pazartesi</p>
+              <p class="day-info">22°</p>
+            </div>
+            <div class="day">
+              <img src="images/image 2.png" alt="" class="day-img" />
+              <p class="day-info">Pazartesi</p>
+              <p class="day-info">22°</p>
+            </div>
           </div>
         </div>
+
+        <div class="Status-to">
+          <h2 class="highlights">Today’s Highlights</h2>
+          <div class="items">
+            <div class="day status selected">
+              <div class="top">
+                <img src="images/image20.png" alt="" />
+                <p class="status-h">Wind Status</p>
+              </div>
+              <p class="todays">Today wind speed</p>
+              <p class="kilometr">12 <span>km/h</span></p>
+            </div>
+
+            <div class="day status">
+              <div class="top">
+                <img src="images/image21.png" alt="" />
+                <p class="status-h">Nem</p>
+              </div>
+              <p class="todays">Today wind speed</p>
+              <p class="kilometr">12 <span>km/h</span></p>
+            </div>
+
+            <div class="day status">
+              <div class="top">
+                <img src="images/image22.png" alt="" />
+                <p class="status-h">Clouds</p>
+              </div>
+              <p class="todays">Today wind speed</p>
+              <p class="kilometr">12 <span>km/h</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="state">
+          <h2 class="title-other-city">Other Cities</h2>
+          <div class="items">
+            <div class="state-citys istanbul">
+              <!-- <img src="images/Rectangle 27.png" alt="" /> -->
+              <p class="other-states">İstanbul</p>
+              <p class="city-temp">25° Güneşli</p>
+            </div>
+
+            <div class="state-citys ankara">
+              <!-- <img src="images/Rectangle 28.png" alt="" /> -->
+              <p class="other-states">Ankara</p>
+              <p class="city-temp">25° Güneşli</p>
+            </div>
+
+            <div class="state-citys izmir">
+              <!-- <img src="images/Rectangle 29.png" alt="" /> -->
+              <p class="other-states">İzmir</p>
+              <p class="city-temp">25° Güneşli</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

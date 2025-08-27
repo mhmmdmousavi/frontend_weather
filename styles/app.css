@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+body{
+    font-family: "Open Sans"
+}
 .main {
   display: flex;
 }
@@ -73,7 +76,7 @@
   width: 60%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   padding: 20px 5%;
   background-color: #d7d8f0;
 }
@@ -109,14 +112,14 @@
 .info-weather {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 .info-today {
   width: 120px;
   color: #2d2a54;
   border-bottom: 1px solid #2d2a54;
-  padding: 18px 24px;
+  padding: 10px 24px;
 }
 
 .items {
@@ -136,13 +139,13 @@
 
 .day-img {
   width: 100%;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
 }
 
 .day-info {
   color: #2d2a54;
   font-size: 15px;
-  line-height: 30px;
+  line-height: 20px;
 }
 
 .selected {
@@ -156,14 +159,14 @@
 .Status-to {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 .highlights {
   width: 300px;
   color: #2d2a54;
   border-bottom: 1px solid #2d2a54;
-  padding: 18px 24px;
+  padding: 10px 24px;
 }
 
 .status {
@@ -175,7 +178,7 @@
   display: flex;
   align-items: center;
   gap: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .status-h {
@@ -189,7 +192,7 @@
 .todays {
   color: #2d2a5480;
   font-size: 14px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .selected .todays {
@@ -217,12 +220,34 @@
 .state {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 .title-other-city {
   width: 200px;
   color: #2d2a54;
   border-bottom: 1px solid #2d2a54;
-  padding: 18px 24px;
+  padding: 10px 24px;
+}
+
+.state-citys {
+  width: 33%;
+  text-align: start;
+  padding: 60px 20px;
+  color: #ffffff;
+}
+
+.istanbul {
+  background: url(/images/Rectangle\ 27.png) no-repeat;
+  background-size: contain;
+}
+
+.ankara {
+  background: url(/images/Rectangle\ 28.png) no-repeat;
+  background-size: contain;
+}
+
+.izmir {
+  background: url(/images/Rectangle\ 29.png) no-repeat;
+  background-size: contain;
 }
